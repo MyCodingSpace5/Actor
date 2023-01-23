@@ -1,0 +1,17 @@
+import openai
+openai.api_key = "PUT API KEY HERE"
+
+def imageGenerationMale():
+    response = openai.Image.create(
+            prompt="A picture of a random man",
+            n=1,
+            size="1024x1024"
+        )
+    return response['data'][0]['url']
+def imageGenerationFemale():
+    response = openai.Image.create(
+            prompt="A picture of a random girl",
+            n=1,
+            size="1024x1024"
+        )
+    return response['data'][0]['url']
