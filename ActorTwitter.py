@@ -1,4 +1,4 @@
-#Actor: Impresonating Humans
+#Actor: Acting like a human Creates fake people based on human nature!
 import time
 
 import openai
