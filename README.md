@@ -1,5 +1,5 @@
 # Actor
-The AI-ML Chatbot that can be deployed anywhere
+Creates fake people to act like a human or a member of humanity
 
 # DISCLAIMER:
 
